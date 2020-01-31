@@ -1,0 +1,126 @@
+/* cssリセット */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+    max-width: 1000px;
+    margin: 0 auto!important;
+}
+
+
+/* ここからタイトルtitle */
+
+.title {
+  padding: 100px 30px;
+}
+
+.title h2 {
+  transform: rotate(-5deg);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.title h1 {
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* ここから自己紹介concept */
+
+.concept {
+  padding: 50px 0 70px;
+}
+
+.concept h2 {
+  text-align: center;
+  padding: 30px 0 10px;
+}
+
+.concept h5 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.concept p {
+  margin: 0 150px;
+  line-height: 2.2;
+}
+
+
+/* ここからsサービスervice */
+
+.service {
+  padding: 50px 0 70px;
+}
+
+.service h2 {
+  text-align: center;
+  padding: 30px 0 10px;
+}
+
+.service h5 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.work p {
+  text-align: center;
+}
+
+
+/* ここから経歴About */
+
+.about {
+  padding: 50px 0 70px;
+}
+
+.about h2 {
+  text-align: center;
+  padding: 30px 0 10px;
+}
+
+.about h5 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about p {
+  margin-left: 120px;
+}
+
+
+/* ここからSNS */
+
+.sns {
+  padding: 50px 0 70px;
+}
+
+.sns h2 {
+  text-align: center;
+  padding: 30px 0 10px;
+}
+
+.sns h5 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+
+/* ここからfooter */
+
+footer {
+  padding: 30px 0;
+}
+
+footer p {
+  text-align: center;
+}

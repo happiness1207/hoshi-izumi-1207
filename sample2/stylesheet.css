@@ -1,0 +1,36 @@
+/* cssリセット */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto!important;
+}
+
+
+/* ここからheader */
+
+header {
+  background-color: #f4f4f4;
+}
+
+header ul {
+  list-style: none;
+  text-align: center;
+}
+
+header li {
+  display: inline;
+}
+
+header a {
+  color: black;
+  padding: 20px 0;
+  margin: 0 50px;
+}
