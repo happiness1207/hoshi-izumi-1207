@@ -8,10 +8,9 @@ form, input, div {
   padding: 0;
 }
 
-body {
-  background-color: #f4f4f4;
-    max-width: 1000px;
-    margin: 0 auto!important;
+main :not(.concept) {
+  max-width: 1000px;
+  margin: 0 auto!important;
 }
 
 
@@ -19,6 +18,17 @@ body {
 
 .title {
   padding: 100px 30px;
+}
+
+.title img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.title_text {
+  vertical-align: center;
 }
 
 .title h2 {
@@ -37,6 +47,12 @@ body {
 
 .concept {
   padding: 50px 0 70px;
+  background-image: url("../images/sunrise.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  max-width: initial;
 }
 
 .concept h2 {
@@ -71,30 +87,48 @@ body {
   padding-bottom: 20px;
 }
 
+.work_text {
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+}
+
 .work p {
-  text-align: center;
+  text-align: left;
+}
+
+.works_img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: drop-shadow(10px 10px 10px rgba(100, 100, 100, 0.6));
 }
 
 
-/* ここから経歴About */
 
-.about {
-  padding: 50px 0 70px;
-}
 
-.about h2 {
-  text-align: center;
-  padding: 30px 0 10px;
-}
 
-.about h5 {
-  text-align: center;
-  padding-bottom: 20px;
-}
+/*
 
-.about p {
-  margin-left: 120px;
-}
+一旦全体のサイト構成を考え直そうっ！
+
+・ヘッダーにbackground-imagesを用いる
+・conceptに白い背景を用いる
+・サービスにまた背景を用いる
+
+とりま、現段階ではこんな感じかなっ！
+自分のLove&Peaceが意外と参考になるよ
+今度また再開する時は、参考にしてみて！！！
+
+
+*/
+
+
+
+
+
+
+
 
 
 /* ここからSNS */
