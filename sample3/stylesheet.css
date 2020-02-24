@@ -1,4 +1,6 @@
-/* cssリセット */
+/*//////////////////////////////////*/
+/*////////////リセットcss////////////*/
+/*//////////////////////////////////*/
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6,
@@ -8,7 +10,9 @@ form, input, div {
   padding: 0;
 }
 
-/* ヘッダー */
+/*//////////////////////////////////*/
+/*//////////////ヘッダー/////////////*/
+/*//////////////////////////////////*/
 header {
   height: 60px;
   width: 100%;
@@ -70,15 +74,50 @@ header li {
 
 
 
-/* main */
+
+
+
+/*//////////////////////////////////*/
+/*///////////////main///////////////*/
+/*//////////////////////////////////*/
 main {
   margin-top: 60px;
 }
 
 
 
-/* タイトル */
-.title {
+/* タイトルに用いる共通CSS */
+.name {
+  font-size: 70px;
+  /* text-align: center; */
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.name::before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: black;
+  border-radius: 2px;
+}
+/* ここまでが共通CSS */
+
+
+
+
+
+/*//////////////////////////////////*/
+/*////////////オープニング////////////*/
+/*//////////////////////////////////*/
+.opening {
   background-image: url(../images/241467FC-BA8E-4E0D-A67C-CD8AC1BC4FC0.jpeg);
   /* <img src="" alt="road"> */
   background-size: cover;
@@ -87,7 +126,7 @@ main {
   position: relative;
 }
 
-.title h1 {
+.opening h1 {
   color: #fff;
   position: absolute;
   top: 50%;
@@ -97,7 +136,11 @@ main {
 
 
 
-/* コンセプト */
+
+
+/*//////////////////////////////////*/
+/*/////////////コンセプト/////////////*/
+/*//////////////////////////////////*/
 .message {
   text-align: center;
 }
@@ -112,33 +155,17 @@ main {
 
 
 
-/* サービス */
+
+
+
+/*//////////////////////////////////*/
+/*/////////////サービス//////////////*/
+/*//////////////////////////////////*/
 .services {
-  /* background-color: #f4f4f4; */
 }
 
 .inside {
   text-align: center;
-}
-
-.inside_title {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 1em;
-}
-
-.inside_title:before {
-  content: '';
-  position: absolute;
-  bottom: -15px;
-  display: inline-block;
-  width: 60px;
-  height: 5px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background-color: black;
-  border-radius: 2px;
 }
 
 .service_lists {
@@ -151,8 +178,6 @@ main {
 }
 
 .detail {
-  /* display: inline-block; */
-  /* width: 333px; */
 }
 
 .detail img {
@@ -189,11 +214,19 @@ main {
   object-position: 0 27%;
 }
 
-/* 自己紹介 */
+
+
+
+
+
+/*//////////////////////////////////*/
+/*//////////////自己紹介/////////////*/
+/*//////////////////////////////////*/
 .about {
 }
 
-.introduce h2 {
+.introduce {
+  padding: 100px 0;
   text-align: center;
 }
 
@@ -204,14 +237,28 @@ main {
 
 
 
-/* SNS一覧 */
+
+
+
+/*//////////////////////////////////*/
+/*////////////////SNS///////////////*/
+/*//////////////////////////////////*/
 .sns {
   background-color: gray;
 }
 
+.sns_lists {
+  text-align: center;
+}
 
 
-/* フッター */
+
+
+
+
+/*//////////////////////////////////*/
+/*//////////////フッター/////////////*/
+/*//////////////////////////////////*/
 footer {
   /* height: 300px; */
   background: #000;
