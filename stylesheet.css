@@ -53,6 +53,7 @@ header {
   vertical-align: middle;
   font-style: italic;
   display: inline-block;
+  font-family: 'Libre Baskerville', serif;
 }
 
 header ul {
@@ -89,6 +90,7 @@ main {
 /* タイトルに用いる共通CSS */
 .name {
   font-size: 70px;
+  font-family: 'Libre Baskerville', serif;
   position: relative;
   display: inline-block;
   margin-bottom: 1em;
@@ -117,7 +119,7 @@ main {
 /*////////////オープニング////////////*/
 /*//////////////////////////////////*/
 .opening {
-  background-image: url(../images/241467FC-BA8E-4E0D-A67C-CD8AC1BC4FC0.jpeg);
+  background-image: url(./images/241467FC-BA8E-4E0D-A67C-CD8AC1BC4FC0.jpeg);
   background-size: cover;
   background-position: 100% 30%;
   height: 600px;
@@ -162,9 +164,6 @@ main {
 /*//////////////////////////////////*/
 /*/////////////サービス//////////////*/
 /*//////////////////////////////////*/
-.services {
-}
-
 .inside {
   text-align: center;
 }
@@ -186,6 +185,7 @@ main {
   width: 304px;
   height: 171px;
   object-fit: cover;
+  box-shadow: 2px 2px 4px lightgray;
 }
 
 .detail p {
@@ -224,11 +224,8 @@ main {
 /*//////////////////////////////////*/
 /*//////////////自己紹介/////////////*/
 /*//////////////////////////////////*/
-.about {
-}
-
 .introduce {
-  padding: 100px 0;
+  padding: 150px 0;
   text-align: center;
 }
 
